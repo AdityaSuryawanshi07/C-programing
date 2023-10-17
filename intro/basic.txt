@@ -1,0 +1,9 @@
+#include<stdio>
+
+   int main(){
+
+    char basic="Hello world!"
+
+    printf(basic)
+
+   }

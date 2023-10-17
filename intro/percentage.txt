@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+
+  char name[20];
+  int rollnumber, java, python, cpp, html, javascript, css;
+  int total, percentage;
+
+  printf("SGM Colege \n");
+
+  printf("Enter Student Name: \n");
+  scanf("%s", name);
+
+  printf("Enter student Roll No: \n");
+  scanf("%d", &rollnumber);
+
+  printf("Enter Java marks : \n");
+  scanf("%d", &java);
+
+  printf("Enter Python marks : \n");
+  scanf("%d", &python);
+
+  printf("Enter cpp marks : \n");
+  scanf("%d", &cpp);
+
+  printf("Enter html marks : \n");
+  scanf("%d", &html);
+
+  printf("Enter Javascript marks : \n");
+  scanf("%d", &javascript);
+
+  printf("Enter CSS marks : \n");
+  scanf("%d", &css);
+
+  total = java + python + cpp + html + javascript + css;
+
+  printf("Total = %d \n", total);
+
+  percentage = (total * 600) / 100;
+
+  printf("Total Percentage  = %d \n", percentage);
+}
